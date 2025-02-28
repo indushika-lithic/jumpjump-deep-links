@@ -1,11 +1,15 @@
 [
-    {
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.LL.JumpJump",
-        "sha256_cert_fingerprints": ["F2:E4:13:48:AF:9B:41:7B:CE:72:1A:EE:CF:60:0B:96:53:88:1B:C4:64:F2:D5:EC:DA:1C:4E:8D:24:BE:2C:7A"]
-      }
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.LL.JumpJump",
+      "sha256_cert_fingerprints": [
+        "81:82:6D:7A:48:61:BC:6B:44:FA:6F:E3:C5:4E:F1:3F:81:18:72:B2:F7:47:09:5B:31:9A:CA:47:34:6E:4C:BA"
+      ]
     }
-  ]
-  
+  }
+]
